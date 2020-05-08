@@ -1,0 +1,35 @@
+.card-container {
+  display: flex;
+  height: 400px;
+  width: 280px;
+  background: transparent !important;
+  cursor: pointer;
+  transition: transform 0.25s ease-out;
+  align-items: center; 
+  margin-top: 20px !important;
+  border-color: transparent !important;
+}
+  
+.card-container:hover {
+  transform: scale(1.02);
+}
+  
+.title {
+  font-family: 'DM Mono', monospace !important; 
+  color: white !important;
+  font-size: 25px !important;
+  text-align: center !important;
+}
+
+.description {
+  margin: 10px;
+  font-family: 'DM Mono', monospace !important; 
+  color: white !important;
+  font-size: 10px !important;
+  text-align: justify;
+}
+
+.rocket-img {
+  border-radius: 2em !important;
+}
+
